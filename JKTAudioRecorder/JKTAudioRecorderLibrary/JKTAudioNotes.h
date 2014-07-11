@@ -8,10 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
-
 @protocol JKTAudioNotesDelegate;
-
-
 @interface JKTAudioNotes : NSObject<AVAudioRecorderDelegate, AVAudioPlayerDelegate,UIGestureRecognizerDelegate>
 @property (nonatomic, weak) id<JKTAudioNotesDelegate> delegate;
 @property (retain, nonatomic)AVAudioRecorder *audioRecorder;
@@ -22,7 +19,6 @@
 -(void)playBack;
 -(void)setJTKButton:(UIButton*)button;
 @end
-
 @protocol JKTAudioNotesDelegate<NSObject>
 - (void)finishedRecordingWithStatus:(BOOL)isSuccess andData:(NSData*)audio;
 - (void)finishedPlaying;
