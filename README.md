@@ -9,8 +9,11 @@ import JKTAudioNotes.h
 Set Delegate <JKTAudioNotesDelegate>
 
 1 - JKTAudioNotes* jkt=[[JKTAudioNotes alloc]init];
+
 2 - jkt.delegate=self;
+
 3 - jkt.audioLimit=5; //optional
+
 4 - [jkt setJTKButton:<BUTTON>];
 
 
