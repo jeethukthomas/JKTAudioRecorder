@@ -22,11 +22,17 @@ After completing these steps you can perform voice message action with <BUTTON>.
 Available delegate methods are
 
 1 -  (void)finishedRecordingWithStatus:(BOOL)isSuccess andData:(NSData *)audio;
+
 2 - (void)finishedPlaying;
+
 3 - (void)startedRecording;
+
 4 - (void)startedPlayBack;
+
 5 - (void)pausedPlayBack;
+
 6 - (void)resumePlayBack:(double)currentTime;
+
 7 - (void)recordTime:(double)currentTime;
 
 You can play the voice at the instance by calling [jkt playBack];
