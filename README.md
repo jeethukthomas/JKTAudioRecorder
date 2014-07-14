@@ -4,7 +4,7 @@ JKTAudioRecorder
 Audio Message library
 @jeethukthomas@icloud.com
 
-#import "JKTAudioNotes.h"
+import JKTAudioNotes.h
 
 Set Delegate <JKTAudioNotesDelegate>
 
