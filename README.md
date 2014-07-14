@@ -9,9 +9,9 @@ Audio Message library
 Set Delegate <JKTAudioNotesDelegate>
 
 JKTAudioNotes* jkt=[[JKTAudioNotes alloc]init];
-    jkt.delegate=self;
-    jkt.audioLimit=5;
-    [jkt setJTKButton:<BUTTON>];
+jkt.delegate=self;
+jkt.audioLimit=5;
+[jkt setJTKButton:<BUTTON>];
 
 
 After completing these steps you can perform voice message action with <BUTTON>.
