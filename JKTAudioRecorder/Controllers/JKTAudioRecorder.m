@@ -60,7 +60,7 @@
 }
 -(void)startedPlayBack
 {
-    NSLog(@"Started recording");
+    NSLog(@"Started play");
     _playBtn.titleLabel.text=@"Pause";
     [_playBtn setTitle:@"Pause" forState:UIControlStateNormal];
 }
